@@ -1,41 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-*{
-    list-style: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+.App {
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
-  background: rgb(49, 46, 82);
+  margin: 0;
+  padding: 0;
 }
 
-.sidebar-wrapper .sidebar {
-  background: rgb(36, 36, 70);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 70px;
+.side-menu {
   height: 100%;
-  padding: 20px 0;
-  padding-left: 10px;
+  width: 300px;
+  background-color: rgb(58, 60, 99);
 }
 
-.sidebar-button {
-  background: rgb(185, 177, 223);
-  height: 45px;
-  width: 80%;
-  border-radius: 14px;
+.side-menu-list {
+  height: auto;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-.button-padding {
-  padding: 11px;
+.side-menu-row {
+  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 500;
+  padding-left: 30px;
+  cursor: pointer;
 }
 
-.main-page {
-  padding-left: 70px;
-  align-content: center;
+.side-menu-list :hover {
+  background-color: rgb(50, 52, 88);
+}
+
+.side-menu-row #active {
+  background-color: aqua;
 }
