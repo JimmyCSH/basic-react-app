@@ -2,6 +2,8 @@ import React from 'react'
 import '../App.css';
 import logo from "../basic-react-app-logo.png";
 
+import { Link } from 'react-router-dom';
+
 import { SideMenuItems } from './SideMenuItems';
 
 function SideMenu() {
@@ -12,7 +14,7 @@ function SideMenu() {
       </div>
       <ul className = "side-menu-list">
         { SideMenuItems.map((val, key) => {
-          return <li key = { key } onClick = {() => { window.location.pathname = val.link}} 
+          return <li key = { key }
             className = "side-menu-row">
             <div>
               { val.title }
