@@ -13,19 +13,16 @@ function App() {
   return (
     <div>
       <div className = "App">
-      <BrowserRouter>
-      <SideMenu />
-        <Routes>
-          <Route path = "/counter" element = { <Counter/> } />
-          <Route path = "/calculator" element = { <Caclulator/> } />
-          <Route path = "/pdfviewer" element = { <PDFViewer/> } />
-          <Route path = "/texteditor" element = { <TextEditor/> } />
-          <Route path = "/tictactoe" element = { <TicTacToe/> } />
-        </Routes>
-      </BrowserRouter>
-      </div>
-      <div>
-
+        <BrowserRouter>
+          <SideMenu />
+          <Routes>
+            <Route path = '/counter' exact element = { <Counter/> } />
+            <Route path = "/calculator" element = { <Caclulator/> } />
+            <Route path = "/pdfviewer" element = { <PDFViewer/> } />
+            <Route path = "/texteditor" element = { <TextEditor/> } />
+            <Route path = "/tictactoe" element = { <TicTacToe/> } />
+          </Routes>
+        </BrowserRouter>
       </div>
     </div>
   );
