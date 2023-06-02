@@ -6,7 +6,7 @@ function Counter() {
     <div className = "window-body">
       <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
     </div>
-  )
+  );
 }
 
 export default Counter;
