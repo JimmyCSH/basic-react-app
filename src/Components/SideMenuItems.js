@@ -2,23 +2,23 @@ import React from 'react'
 
 export const SideMenuItems = [
     {
-        title: "Clicker",
-        link: ""
+        title: "Counter",
+        link: "../Pages/Counter"
     },
     {
         title: "Calculator",
-        link: ""
+        link: "../Pages/Calculator"
     },
     {
         title: "PDF Viewer",
-        link: ""
+        link: "../Pages/PDFViewer"
     },
     {
         title: "Tic Tac Toe",
-        link: ""
+        link: "../Pages/TextEditor"
     },
     {
         title: "Text Editor",
-        link: ""
+        link: "../Pages/TicTacToe"
     }
 ]

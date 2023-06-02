@@ -14,11 +14,12 @@ function SideMenu() {
       </div>
       <ul className = "side-menu-list">
         { SideMenuItems.map((val, key) => {
-          return <li key = { key }
-            className = "side-menu-row">
-            <div>
-              { val.title }
-            </div>
+          return <li key = { key }>
+            <Link to = { val.link } className = "link-text">
+              <div className = "side-menu-row">
+                { val.title }
+              </div>
+            </Link>
           </li>
         })}
       </ul>
