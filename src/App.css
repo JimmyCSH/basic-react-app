@@ -60,7 +60,29 @@ body {
 }
 
 .window-body {
+  
   height: 100vh;
-  color: aquamarine;
-  display: inline-block;
+  color: black;
+}
+
+.center-screen {
+  padding-left: 300px;
+  display: flex;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spacer {
+  padding: 20px;
+}
+
+.inc-dec {
+  width: 80px;
+  height: 80px;
+  color: azure;
+  background-color: rgb(58, 60, 99);
+  border: none;
 }

@@ -18,7 +18,7 @@ function SideMenu() {
             <li key = { key }>
               <Link to = { val.link } 
                 className = "link-text">
-                <div className = "side-menu-row" id = { window.location.pathname == val.link ? "active" : "" }>
+                <div className = "side-menu-row" id = { window.location.pathname === val.link ? "active" : "" }>
                   { val.title }
                 </div>
               </Link>
