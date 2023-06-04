@@ -84,5 +84,28 @@ body {
   height: 80px;
   color: azure;
   background-color: rgb(58, 60, 99);
+  border-radius: 10px;
+}
+
+inc-dec :hover {
+  background-color: azure;
+}
+
+.calc-body {
+  background-color: aqua;
+}
+
+.calc-button {
+  width: 60px;
+  height: 60px;
+  margin: 4px;
+  border-radius: 10px;
   border: none;
+  background-color: rgb(71, 71, 71);
+  color: white;
+}
+
+.calc-input {
+  width: 97%;
+  height: 50px;
 }
