@@ -85,10 +85,11 @@ body {
   color: azure;
   background-color: rgb(58, 60, 99);
   border-radius: 10px;
+  border: none;
 }
 
-inc-dec :hover {
-  background-color: azure;
+.inc-dec:hover {
+  background-color: rgb(255, 124, 17);
 }
 
 .calc-body {
