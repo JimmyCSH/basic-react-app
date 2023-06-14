@@ -1,13 +1,17 @@
 import React from 'react'
 import '../App.css'
 
+import { useState } from 'react';
+
 function Calculator() {
+  let expression, ans = useState(0);
+
   return (
     <div className = "window-body">
       <div className = "center-screen">
         <div className = "calc-body">
           <div>
-            <input className = "calc-input"></input>
+            <p className = "calc-input"></p>
           </div>
           <div>
             <button className = "calc-button">1</button>
